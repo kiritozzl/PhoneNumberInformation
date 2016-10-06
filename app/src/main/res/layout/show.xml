@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/pro_rl"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_pro"
+                android:layout_marginBottom="3dp"
+                android:text="手机号码所在省份："
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/pro_show"
+                android:layout_marginBottom="3dp"
+                android:textSize="16sp"
+                android:layout_toRightOf="@id/tv_pro"
+                android:text="province"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/city_rl"
+            android:layout_below="@id/pro_rl"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_city"
+                android:layout_marginBottom="3dp"
+                android:text="手机号码所在城市："
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/city_show"
+                android:layout_marginBottom="3dp"
+                android:textSize="16sp"
+                android:layout_toRightOf="@id/tv_city"
+                android:text="city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/code_rl"
+            android:layout_below="@id/city_rl"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_code"
+                android:layout_marginBottom="3dp"
+                android:text="手机号码的区域码："
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/code_show"
+                android:layout_marginBottom="3dp"
+                android:textSize="16sp"
+                android:layout_toRightOf="@id/tv_code"
+                android:text="code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/company_rl"
+            android:layout_below="@id/code_rl"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_company"
+                android:layout_marginBottom="3dp"
+                android:text="手机号码的运营商："
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/company_show"
+                android:layout_marginBottom="3dp"
+                android:textSize="16sp"
+                android:layout_toRightOf="@id/tv_company"
+                android:text="company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/info_rl"
+            android:layout_below="@id/company_rl"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_marginBottom="3dp"
+                android:text="手机号码的基本信息："
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/info_show"
+                android:layout_marginBottom="3dp"
+                android:textSize="16sp"
+                android:layout_toRightOf="@id/tv_info"
+                android:text="information"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
